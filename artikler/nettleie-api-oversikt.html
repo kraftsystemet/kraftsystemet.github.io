@@ -39,7 +39,7 @@
         <hr />
         <dl>
           <dt>Sist oppdatert</dt>
-          <dd>2025-11-14</dd>
+          <dd>2026-06-22</dd>
           <dt>Skrevet av</dt>
           <dd>Kristoffer Lorentsen</dd>
         </dl>
@@ -138,6 +138,19 @@
           Opphav fra DIGIN og nå overtatt av Elbits. Tariffer per målepunkt og
           per netteier. Hver netteier som har implementert APIet vises i
           mappingen i repoet. Ikke alle netteiere har implementert dette enda.
+        </p>
+        <h3 id="enersky">EnerSky</h3>
+        <p>
+          <strong>URL</strong>:
+          <a
+            href="https://enersky.no/product/tariffs"
+            >https://enersky.no/product/tariffs</a
+          >
+        </p>
+        <p>
+          EnerSky leverer REST API med tariffer for samtlige nettselskaper, samt beregningsmotor for nettleie.
+          Dekker både husholdning/fritid, liten og stor næring (lav og høyspent), samt enkelte regionalnett,
+          plusskunder og prosumenter.
         </p>
         <h3 id="fri-nettleie">fri-nettleie</h3>
         <p>
@@ -267,6 +280,17 @@
                 <td>Ja</td>
                 <td>Json REST</td>
                 <td>Netteier</td>
+              </tr>
+              <tr>
+                <td>EnerSky</td>
+                <td>Ja</td>
+                <td>Nei, krever registrering</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>Ja</td>
+                <td>OpenAPI v3 (JSON)</td>
+                <td>Netteier (GLN) med historikk</td>
               </tr>
               <tr>
                 <td>fri-nettleie</td>
